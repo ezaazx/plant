@@ -1,6 +1,6 @@
-﻿Flask
-tensorflow
-gdown
+Flask==3.0.3
+gunicorn
+tensorflow-cpu==2.11.0
 numpy
 Pillow
-gunicorn
+gdown
