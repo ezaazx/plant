@@ -3,6 +3,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
 import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 import gdown
 # Initialize Flask app
 app = Flask(__name__)
